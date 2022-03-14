@@ -1,0 +1,35 @@
+.logo{
+    height: 70px;
+    width: 200px;
+}
+.nav-bg{
+    background-color: rgba(184, 181, 181, 0.233);
+}
+.top-part{
+    background-image: url(./img/indir\ \(7\).jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.nav-item a{
+    color: rgb(36, 78, 78);
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color:rgb(196, 110, 5);
+}
+
+@media screen and (max-width: 992px){
+    .nav-item:hover{
+        background-color: rgb(230, 235, 245);
+    }
+}
+.logo_empty{
+    margin-top: 80px;
+    width: 350px;
+    height: 200px;
+}
